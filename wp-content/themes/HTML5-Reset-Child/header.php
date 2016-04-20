@@ -85,6 +85,9 @@
 
 	<!-- Lea Verou's Prefix Free, lets you use only un-prefixed properties in yuor CSS files -->
     <script src="<?php echo get_template_directory_uri(); ?>/_/js/prefixfree.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 	<!-- This is an un-minified, complete version of Modernizr.
 		 Before you move to production, you should generate a custom build that only has the detects you need. -->
@@ -127,7 +130,7 @@
 <body <?php body_class('html5-child'); ?>>
 
 	<!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
-	<div class="wrapper container">
+	<div class="wrapper row">
 
 		<header id="header" role="banner">
 			<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>

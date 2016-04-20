@@ -12,6 +12,11 @@
  Text Domain:  HTML5-Reset-Child
 */
 /* Add all Original CSS Code below */
-body {
+body-html5-child {
 font-family: consolas, monospace;
+font-size: 120%;
+
+}
+.wrapper {
+padding: 0 2em;
 }
